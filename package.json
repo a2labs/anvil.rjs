@@ -1,0 +1,42 @@
+{
+  "name": "anvil.rjs",
+  "version": "0.1.0",
+  "author": "Doug Neiner <dneiner@appendto.com>",
+  "description": "A plugin for integrating rjs dependency compliation into anvil builds",
+  "contributors": [
+    {
+      "name": "Doug Neiner",
+      "email": "dneiner@appendto.com"
+    }
+  ],
+  "main": "./lib/anvil.rjs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a2labs/anvil.rjs.git"
+  },
+  "keywords": [
+    "anvil.js",
+    "require.js",
+    "r.js",
+    "anvil",
+    "require",
+    "rjs"
+  ],
+  "dependencies": {
+    "requirejs": ">=2.1"
+  },
+  "devDependencies": {},
+  "licenses" : [
+    {
+        "type" : "MIT",
+        "url" : "http://opensource.org/licenses/MIT"
+    },
+    {
+        "type" : "GPLv2",
+        "url" : "http://opensource.org/licenses/GPL-2.0"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8"
+  }
+}
